@@ -14,20 +14,16 @@ I have implemented support for:
 
 ## 3-Tiered Organizational Structure
 This program has been designed using a 3-tiered organizational structure:
-user_interface
-      |
-	  V
- file_system
-      |
-	  V
-storage_device
+* user_interface
+* file_system
+* storage_device
 
 The functions defined in one layer can only call functions in the same layer or in the layer directly below.  The only exception is that any function can call the handleError function defined in error/error.h.
 
 ## Sample Output
 There are two sample files included with this program:
-* sample_output.txt:  The output from running the program on the "sample_output_source_image.dat" image file.
-* sample_output_source_image.dat:  An image of a sample FAT12 filesystem, on which the program can be run.
+* **sample_output.txt:**  The output from running the program on the "sample_output_source_image.dat" image file.
+* **sample_output_source_image.dat:**  An image of a sample FAT12 filesystem, on which the program can be run.
 
 ## Compiling the Program
 A makefile has been provided.  Hence, to compile the program, simply run
