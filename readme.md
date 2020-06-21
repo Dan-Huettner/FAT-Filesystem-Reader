@@ -1,7 +1,7 @@
 # FAT Filesystem Reader
 
 ## Overview
-This is a program I implemented on my own time to read from a storage device with a FAT12 or FAT32 filesystem.  This program will read the contents and output a list of all the files in the volume along with the following information:
+This is a program I implemented to read from a storage device with a FAT12 or FAT32 filesystem.  This program will read the contents and output a list of all the files in the volume along with the following information:
 * File name
 * File type (i.e. regular file or directory)
 * Size (in Bytes)
